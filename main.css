@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.navegacion {
+    background-color: #1B5E20;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura automática */
+    position: relative; /* Posición relativa para contener elementos posicionados absolutamente */
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0; 
+    display: flex; /* Usar flexbox para alinear elementos */
+    align-items: center; /* Centrar verticalmente los elementos */  
+    justify-content: space-between; /* Distribuir espacio entre elementos */
+    background: linear-gradient(to top, #1b5e20, #2e7d32); /* Degradado verde UTCJ */
+}
+
+.ajustarlogo {
+    display: flex; /* Usar flexbox para alinear elementos */
+    align-items: center; /* Centrar verticalmente los elementos */  
+    justify-content: center; /* Centrar horizontalmente los elementos */
+}
+
+.logo {
+    width: 120px; /* Ajusta el tamaño según sea necesario */
+    height: 120px; /* Ajusta el tamaño según sea necesario */
+    margin: 1px; /* Espacio alrededor del logo */
+    margin-left: 40px;
+    float: center; /* Alinear al centro */
+    border-radius: 100%; /* Hacer el logo circular */
+    display: flex; /* Usar flexbox para centrar el contenido */
+    padding: 4px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+li {
+    width: auto;
+    margin: 0;
+    padding: 12px 16px;
+    position: relative;
+    float: left;
+    list-style-type: none;
+    color: white;
+    transition: transform 0.3s ease, text-shadow 0.3s ease, color 0.3s ease;
+    font-size: 28px;
+}
+
+li:hover {
+    transform: scale(1.5, 1.5);
+    text-shadow: 0 0 10px #FFD700;
+    color: #FFD700;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+.footer {
+    background-color: #1B5E20;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer p {
+    color: white;
+    margin: auto;
+}
+
+
